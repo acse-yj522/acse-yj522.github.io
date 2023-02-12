@@ -1,2 +1,1 @@
-# acse-yj522.github.io
-personal homepage
+个人主页
