@@ -1,0 +1,85 @@
+---
+title: Ubuntu安装Mojo
+author: ge2k
+date: 2023-11-30 17:45:40 +0800
+categories: [Blogging, tools]
+tags: [wsl]
+
+---
+
+## 运行环境
+- Ubuntu 22.04（要求Ubuntu 20.04或之后）
+- Python 3.10（要求Python 3.8 - 3.10）
+- x86-64 CPU，最小4G RAM
+- g++ 或 clang++ 编译器
+
+## 安装步骤
+
+1. **安装 Modular CLI**
+
+    `curl https://get.modular.com | sh - && modular auth mut_cccd224218bb423e8786415077b8cb7e`
+
+    ![1.png](https://i.ibb.co/rt0090L/1.png)
+
+2. **安装 Mojo SDK**
+
+    `modular install mojo`
+
+    - 可能出现问题1：modular: error: failed to run python
+
+        ![2.png](https://i.ibb.co/QYshn3g/4.png)
+
+    - 解决1：`sudo apt install python3.10-venv`
+
+        ![3.png](https://i.ibb.co/6mr2VNN/7.png)
+
+    - 可能出现问题2：modular: error: failed to run python
+
+        ![4.png](https://i.ibb.co/bWNByp0/6.png)
+
+    - 解决2：多次尝试 `sudo apt install python3.10-venv`
+
+    **每次 `modular install mojo` 运行失败，运行 `modular clean` 清除**
+
+3. **成功安装**
+
+    ![5.png](https://i.ibb.co/zQHB8mC/5.png)
+
+4. **配置路径及"Hello, world!"**
+
+    If you are using ZSH (default on macOS), run the following commands:
+
+    ```shell
+    echo 'export MODULAR_HOME="$HOME/.modular"' >> ~/.zshrc
+
+    echo 'export PATH="$HOME/.modular.modular/pkg/packages.modular.com_mojo/bin:$PATH"' >> ~/.zshrc
+
+    source ~/.zshrc
+    ```
+
+    If you are using bash, run the following commands:
+
+    ```shell
+    BASHRC=$( [ -f "$HOME/.bash_profile" ] && echo "$HOME/.bash_profile" || echo "$HOME/.bashrc" )
+
+    echo 'export MODULAR_HOME="$HOME/.modular"' >> "$BASHRC"
+
+    echo 'export PATH="$HOME/.modular/pkg/packages.modular.com_mojo/bin:$PATH"' >> "$BASHRC"
+
+    source "$BASHRC"
+    ```
+    **修改路径时，"$HOME/.modular"比如是 "/home/ge2k/.modular"，不可写成 "~/.modular"，source时可能识别不出 ~**
+
+
+    ![6.png](https://i.ibb.co/92G3888/9.png)
+
+
+## 附录
+
+[Mojo使用文档](https://docs.modular.com/mojo/)
+
+[官方教程链接](https://developer.modular.com/download)
+
+[个人参考链接1](https://www.ewbang.com/community/article/details/961944197.html)
+
+[个人参考链接2](https://www.bilibili.com/read/cv26616475/)
