@@ -19,7 +19,7 @@ tags: [wsl]
 
     `curl https://get.modular.com | sh - && modular auth mut_cccd224218bb423e8786415077b8cb7e`
 
-    ![1.png](https://i.ibb.co/rt0090L/1.png)
+    ![cli.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130cli.png)
 
 2. **安装 Mojo SDK**
 
@@ -27,15 +27,15 @@ tags: [wsl]
 
     - 可能出现问题1：modular: error: failed to run python
 
-        ![2.png](https://i.ibb.co/QYshn3g/4.png)
+        ![error1.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130error1.png)
 
     - 解决1：`sudo apt install python3.10-venv`
 
-        ![3.png](https://i.ibb.co/6mr2VNN/7.png)
+        ![soln1.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130soln1.png)
 
     - 可能出现问题2：modular: error: failed to run python
 
-        ![4.png](https://i.ibb.co/bWNByp0/6.png)
+        ![error2.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130error2.png)
 
     - 解决2：多次尝试 `sudo apt install python3.10-venv`
 
@@ -43,7 +43,7 @@ tags: [wsl]
 
 3. **成功安装**
 
-    ![5.png](https://i.ibb.co/zQHB8mC/5.png)
+    ![success.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130success.png)
 
 4. **配置路径及"Hello, world!"**
 
@@ -70,8 +70,7 @@ tags: [wsl]
     ```
     **修改路径时，"$HOME/.modular"比如是 "/home/ge2k/.modular"，不可写成 "~/.modular"，source时可能识别不出 ~**
 
-
-    ![6.png](https://i.ibb.co/92G3888/9.png)
+    ![demo.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130demo.png)
 
 
 ## 附录

@@ -7,7 +7,7 @@ tags: [cpp, mpi]
 
 ---
 
-![sublime_text_logo.png](https://i.ibb.co/bzFWX9J/sublime-jpg.webp)
+![sublime.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/230429sublime.webp)
 
 
 
@@ -61,4 +61,4 @@ tags: [cpp, mpi]
 }
 ```
 `Page Screenshot`
-![page_screenshot.png](https://i.ibb.co/WKyqXH6/Screenshot-2023-04-29-at-10-43-28.png)
+![screenshot.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/230429screenshot.png)

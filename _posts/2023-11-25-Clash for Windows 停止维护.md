@@ -7,7 +7,7 @@ tags: [vpn]
 
 ---
 
-![logo.png](https://i.ibb.co/719dyNw/clash.png)
+![clash.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231125clash.png)
 
 原作者已删库：Fndroid/clash_for_windows_pkg
 
