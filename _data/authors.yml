@@ -1,0 +1,15 @@
+## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
+# -------------------------------------
+# {author_id}:
+#   name: {full name}
+#   twitter: {twitter_of_author}
+#   url: {homepage_of_author}
+# -------------------------------------
+
+yuyao jiang:
+  name: Yuyao Jiang
+  twitter: https://twitter.com/geek_yuyao
+  url: https://github.com/acse-yj522/
+
+---
+author: yuyao jiang
