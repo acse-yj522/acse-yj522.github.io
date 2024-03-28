@@ -18,7 +18,7 @@ timezone: China/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: ge2k # the main title
+title: 灿若烟火笑晚空 # the main title
 
 tagline: 分享日常的闪光~ # it will display as the sub-title
 
@@ -42,10 +42,10 @@ social:
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/geek_yuyao # change to your twitter homepage
-    # - https://github.com/acse-yj522 # change to your github homepage
+    - https://github.com/acse-yj522 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/yuyaojiang
+    # - https://www.linkedin.com/in/yuyaojiang
 
 google_site_verification: # fill in to your verification string
 
@@ -70,7 +70,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: light # [light|dark]
+theme_mode: # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
