@@ -1,11 +1,11 @@
 ---
 title: Command Snippets
-author: ge2k
+author: yuyao
 date: 2023-11-28 15:46:20 +0800 
 categories: [Blogging, syntax]
 tags: [command]
-
 ---
+
 ___
 ## 2023-11-28
 ### 片段一

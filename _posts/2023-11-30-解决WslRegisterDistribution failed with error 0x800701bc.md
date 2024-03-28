@@ -1,10 +1,9 @@
 ---
 title: 解决WslRegisterDistribution failed with error 0x8007019e
-author: ge2k
+author: yuyao
 date: 2023-11-30 01:03:40 +0800 
 categories: [Blogging, tools]
 tags: [wsl]
-
 ---
 
 ![wsl.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231130wsl.png)

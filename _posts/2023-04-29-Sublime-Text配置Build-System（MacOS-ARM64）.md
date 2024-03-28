@@ -1,10 +1,9 @@
 ---
 title: Sublime Text配置Build System（MacOS ARM64）
-author: ge2k
+author: yuyao
 date: 2023-04-29 01:26:40 +0800 
 categories: [Blogging, tools]
 tags: [cpp, mpi]
-
 ---
 
 ![sublime.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/230429sublime.webp)

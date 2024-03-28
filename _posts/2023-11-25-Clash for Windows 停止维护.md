@@ -1,10 +1,9 @@
 ---
 title: Clash for Windows 停止维护
-author: ge2k
+author: yuyao
 date: 2023-11-25 09:57:40 +0800 
 categories: [Blogging, tools]
 tags: [vpn]
-
 ---
 
 ![clash.png](https://raw.githubusercontent.com/acse-yj522/acse-yj522.github.io/main/_posts/figures/231125clash.png)

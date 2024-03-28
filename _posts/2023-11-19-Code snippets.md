@@ -1,10 +1,9 @@
 ---
 title: Code Snippets
-author: ge2k
+author: yuyao
 date: 2023-11-19 17:01:20 +0800 
 categories: [Blogging, syntax]
 tags: [cpp]
-
 ---
 
 ___

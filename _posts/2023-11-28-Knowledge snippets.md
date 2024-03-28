@@ -1,10 +1,9 @@
 ---
 title: Knowledge Snippets
-author: ge2k
+author: yuyao
 date: 2023-11-29 01:22:10 +0800 
 categories: [Blogging, syntax]
 tags: [knowledge]
-
 ---
 
 ## 2023-12-3

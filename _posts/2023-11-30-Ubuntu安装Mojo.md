@@ -1,10 +1,9 @@
 ---
 title: Ubuntu安装Mojo
-author: ge2k
+author: yuyao
 date: 2023-11-30 17:45:40 +0800
 categories: [Blogging, tools]
 tags: [wsl]
-
 ---
 
 ## 运行环境

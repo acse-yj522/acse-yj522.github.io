@@ -6,11 +6,7 @@
 #   url: {homepage_of_author}
 # -------------------------------------
 
-yuyao jiang:
+yuyao:
   name: Yuyao Jiang
-  twitter: https://twitter.com/geek_yuyao
+  twitter: geek_yuyao
   url: https://github.com/acse-yj522/
-
----
-author: yuyao jiang
----

@@ -1,10 +1,9 @@
 ---
 title: Python Decorators
-author: ge2k
+author: yuyao
 date: 2023-11-27 15:21:20 +0800 
 categories: [Blogging, syntax]
 tags: [python]
-
 ---
 
 ### 调试代码
